@@ -5,5 +5,15 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent
+{
+  addArticle(title: HTMLInputElement, link: HTMLInputElement, ArticleNumber:HTMLInputElement): boolean 
+  {
+      console.log(`Adding Article title: ${title.value} and link:${link.value} and ArticleNumber:${ArticleNumber.value}`);
+      return false;
+  }
 }
+
+
+
+
