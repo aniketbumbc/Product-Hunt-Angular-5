@@ -1,5 +1,4 @@
-import { Domain } from "domain";
-
+//import { Domain } from "domain";
 export class Article{
 title:string;
 link:string;
